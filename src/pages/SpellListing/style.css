@@ -1,0 +1,40 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10% !important;
+    letter-spacing: 4px;
+    font-size: 50px !important;
+}
+.css-1z13ce1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px !important;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000;
+    background-color: #fff;
+}
+.modalContainer{
+    /* padding: 1.25rem; */
+}
+.modalContainer .title{
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #494949;
+}
+.modalContainer .title h2{
+    width: 100%;
+    margin-bottom: 0;
+}
+.modalContainer .title svg{
+    margin: auto;
+    cursor: pointer;
+}
+.modalContainer .content{
+    padding: 0.625rem;
+}
+.modalContainer .content .MuiChip-root{
+    margin: 0.625rem 0.313rem;
+}
